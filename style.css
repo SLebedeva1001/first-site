@@ -1,0 +1,42 @@
+h1, .footer {
+font-size: 50px;
+color:white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+width: auto;
+min-height: 20vh;
+background-color: #7e9ba3;
+display:flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+
+.main {
+display: grid;
+width: 100%;
+grid-auto-flow: column dense;
+gap: 10px 10px;
+min-height: 60vh;
+}
+
+.footer {
+width: 100%;
+min-height: 20vh;
+background-color: #43574e;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+
+.column {
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
